@@ -6,15 +6,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 html,body {
-    height: 100vh;
+    height: 104vh;
     width: 100vw;
     background-color: black;
+   
 }
 body {
+    
     background: url("../imagens/fundo-madeira.jpg")no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
-
 
 }
 main {
@@ -26,8 +27,10 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
+
     height: 627px;
     width: 311px;
+    margin-top: 10px;
     background: url("../imagens/frame-iphone.png")no-repeat;
 
 }
@@ -48,6 +51,7 @@ section#redes-sociais img {
     border-radius: 50%;
     box-shadow: 2px 2px 5px black;
     box-sizing: border-box;
+    margin-right: 30px;
 
 }
 section#redes-sociais img:hover {
